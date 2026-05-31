@@ -1,4 +1,4 @@
-# AI Usage Log — [Project Name]
+# AI Usage Log — stat-audit-FinalProject_Group10-sti-2025
 
 ## Summary
 

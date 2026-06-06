@@ -4,12 +4,25 @@
 
 | Member | Role | Tools | ~% Code AI-Assisted | Interpretation Cells AI-Assisted? |
 | ------ | ---- | ----- | ------------------- | --------------------------------- |
+| Kirana Cinta Mentari | Data Engineer | Claude | ~70% | No |
 | Raynar Usman Annafis | Estimation Analyst | Claude, DeepSeek, Gemini | ~65% | Yes |
 | ... | | | | |
 
 ---
 
 ## Per-Member Detail
+
+### Member A — Kirana Cinta Mentari
+
+| # | Task | Tool | Prompt | How the Output Was Used | How Do You Evaluate the Output |
+| --- | ---- | ---- | ------ | ----------------------- | ------------------------------ |
+| 1 | Membuat script crawling data issues dan pull request dari GitHub API | Claude | "Saya punya tugas sebagai Data Engineer dan perlu mengambil data dari GitHub API untuk repo pandas-dev/pandas. Bantu saya buat script Python yang bisa crawling issues dan PR secara otomatis tanpa menggunakan input(), lengkap dengan pagination dan rate limit handling" | Output menghasilkan script `collect_data.py` yang langsung bisa dijalankan otomatis, dengan pagination dan pembuatan folder `data/raw/` secara otomatis | Mengecek hasil crawling dengan memverifikasi jumlah data dan struktur CSV yang dihasilkan |
+| 2 | Import library dan load dataset untuk EDA | Claude | "Bantu aku import library yang dibutuhkan untuk EDA dan load data dari issues_clean.csv dan pr_clean.csv" |Output menginisialisasi library `pandas`, `matplotlib`, `seaborn` dan memuat data dari direktori `data/raw/` | Memverifikasi dataset berhasil dimuat dengan mengecek shape dan kolom |
+| 3 | Cleaning dataset issues dan PR  | Claude | "Bantu aku membersihkan dataset issues dan PR. pilih kolom yang penting, hapus duplikat, dan konversi format tanggal" | Output memberikan kode cleaning yang kemudian disesuaikan dengan kolom data aktual | Mengecek nilai null dan tipe data setelah cleaning untuk memastikan hasilnya benar |
+| 4 | Membuat visualisasi untuk ketiga research questions | Claude | "Bantu aku buat tiga visualisasi: bar chart untuk distribusi PR merged vs unmerged, boxplot untuk perbandingan komentar, dan histogram untuk waktu penyelesaian issue" | Output menghasilkan kode visualisasi yang disesuaikan dengan data aktual | Menjalankan visualisasi dan memverifikasi hasilnya sesuai dengan data |
+| 5 | Debug error library matplotlib dan seaborn | Claude | "Muncul error ModuleNotFoundError saat import matplotlib di notebook. Gimana cara fixnya?" | Output memberikan perintah install yang tepat untuk menyelesaikan error | Menjalankan ulang notebook setelah install dan memastikan error teratasi |
+
+---
 
 ### Member B — Raynar Usman Annafis
 

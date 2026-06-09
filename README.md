@@ -40,6 +40,10 @@ Berapa probabilitas sebuah issue butuh lebih dari 30 hari untuk ditutup?
 
 
 ## How To Run
+```bash
+pip install pandas matplotlib numpy
+python namaFile.py
+```
 
 
 ## Team Table

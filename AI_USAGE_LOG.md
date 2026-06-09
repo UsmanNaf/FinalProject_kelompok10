@@ -41,6 +41,7 @@
 | 1 | Membuat kode Two-Sample Z-Test | Gemini | "bantu saya membuat kode Two-Sample Z-Test di python" | Digunakan sebagai dasar kode untuk melakukan uji hipotesis pada data PR merged dan unmerged | Menjalankan kode dan memastikan hasil yang keluar sesuai dengan data yang dianalisis |
 | 2 | Menjelaskan konsep statistik | ChatGPT | "jelaskan apa itu p-value, Two-Sample Z-Test, Two-Tailed Test, dll" | Digunakan untuk membantu memahami konsep yang digunakan dalam analisis | Membandingkan penjelasan dengan materi dari PPT |
 | 3 | Perbaikan kode Python | ChatGPT | "bantu saya merapikan kode python berikut" | Digunakan untuk membuat kode lebih rapi dan menampilkan informasi tambahan yaitu standar deviasi | Menjalankan ulang kode dan memastikan hasilnya tetap sama seperti sebelumnya |
+| 4 | Menjelaskan hasil uji hipotesis | ChatGPT | "bantu saya menjelaskan hasil Z-test dan p-value yang diperoleh" | Digunakan untuk menyusun penjelasan hasil uji dan interpretasi | Dicocokkan dengan output yang dihasilkan program dan mencoba memahami dan menjelaskan menggunakan bahasa sendiri |
 
 ---
 

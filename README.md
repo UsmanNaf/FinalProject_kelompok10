@@ -38,6 +38,16 @@ Berapa probabilitas sebuah issue butuh lebih dari 30 hari untuk ditutup?
 
 ## 📈 Key Findings
 
+## Simulation
+Data dimanipulasi sesuai kebeutuhan sebelum melakukan simulasi.
+
+Temuan utama:
+- Metode Monte Carlo sangat cocok untuk simulasi ini karna tidak terikat urutan proses dan tidak berkaitan dengan durasi.
+- Hasil simulasi menunjukkan bahwa kemungkinan issue akan di tutup dalam waktu lebih dari 30 hari adalah sekitar *~6.9-7.5%* berubah-ubah karena simulasi mengambil sampel random setiap kali di jalankan.
+
+
+---
+
 
 ## How To Run
 ```bash

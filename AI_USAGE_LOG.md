@@ -7,6 +7,7 @@
 | Kirana Cinta Mentari | Data Engineer | Claude | ~70% | No |
 | Raynar Usman Annafis | Estimation Analyst | Claude, DeepSeek, Gemini | ~65% | Yes |
 | Bethelina Imanuella Yesaya | Hypothesis Analyst | Gemini, ChatGPT | ~80% | Yes |
+| Zaky Aditya Susanto | Computation Analyst | Gemini, ChatGPT | ~70% | No |
 
 ---
 
@@ -42,6 +43,15 @@
 | 2 | Menjelaskan konsep statistik | ChatGPT | "jelaskan apa itu p-value, Two-Sample Z-Test, Two-Tailed Test, dll" | Digunakan untuk membantu memahami konsep yang digunakan dalam analisis | Membandingkan penjelasan dengan materi dari PPT |
 | 3 | Perbaikan kode Python | ChatGPT | "bantu saya merapikan kode python berikut" | Digunakan untuk membuat kode lebih rapi dan menampilkan informasi tambahan yaitu standar deviasi | Menjalankan ulang kode dan memastikan hasilnya tetap sama seperti sebelumnya |
 | 4 | Menjelaskan hasil uji hipotesis | ChatGPT | "bantu saya menjelaskan hasil Z-test dan p-value yang diperoleh" | Digunakan untuk menyusun penjelasan hasil uji dan interpretasi | Dicocokkan dengan output yang dihasilkan program dan mencoba memahami dan menjelaskan menggunakan bahasa sendiri |
+
+---
+
+### Member E — Zaky Aditya Susanto
+
+| # | Task | Tool | Prompt | How the Output Was Used | How Do You Evaluate the Output |
+| --- | ---- | ---- | ------ | ----------------------- | ------------------------------ |
+| 1 | Memahami Metode Apa yang akan digunakan diantara tiga metode (Monte Carlo, MCMC, Bloom Filter) | Gemini | "Menurut lu, metode apa yang paling cocok untuk melakukan simulasi data pull request yang di close lebih dari 30 hari diantara tiga metode ini : Monte Carlo, MCMC, dan Bloom Filter?" | Digunakan sebagai referensi dan pendukung pengambilan keputusan | Membandingkan hasil jawaban AI dengan materi yang diberikan di teams. |
+| 2 | Visualisasi persebaran hasil simulasi | ChatGPT | "Buatkan visualisasi dengan diagram bar untuk hasil dari kode simulasi berikut" | Digunakan untuk memvisualisasikan hasil simulasi | Mereview hasil kode dan kebersihan kode |
 
 ---
 

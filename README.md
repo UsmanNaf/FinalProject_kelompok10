@@ -85,7 +85,7 @@ Temuan utama:
 
 ## How To Run
 ```bash
-pip install pandas matplotlib numpy
+pip install -r requirements.txt
 python namaFile.py
 ```
 
